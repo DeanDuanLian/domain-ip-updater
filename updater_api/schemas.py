@@ -5,5 +5,7 @@ from pydantic import BaseModel, constr
 #     __root__: Any
 
 class UpdateInfo(BaseModel):
+    hostname:str
+    myip:str
     username:str
     password:str
